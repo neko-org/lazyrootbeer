@@ -33,7 +33,7 @@ Skillconfiguration file can be found under this path /Additional-Data/Skillconfi
 ---
 
 ## Note
-- An list of the default dungeons which are currently added in the dungeons.json file can be found here [Skill Overview](https://github.com/Tera-Shiraneko/lazyrootbeer/tree/master/Additional-Data/Dungeonoverview).
+- An list of the default dungeons which are currently added in the dungeons.json file can be found here [Dungeon Overview](https://github.com/Tera-Shiraneko/lazyrootbeer/tree/master/Additional-Data/Dungeonoverview).
 - An list of the default skills which are currently added in the skills.json file can be found here [Skill Overview](https://github.com/Tera-Shiraneko/lazyrootbeer/tree/master/Additional-Data/Skillconfiguration).
 - If you got multiple skill id's it will use brooch and or rootbeer on the first skill you use.
 - I don't play every class so it's possible you have to edit the skills.json file manually.
