@@ -1,0 +1,16 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Lazyrootbeer",
+    "author": "Shalltearz",
+    "description": "Tera proxy module which automatically uses brooch and rootbeer.",
+    "version": "1.0",
+    "options": {
+        "niceName": "Lazyrootbeer",
+        "guiName": "Lazyrootbeer",
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/Tera-Shiraneko/lazyrootbeer/master/"],
+    "supportUrl": "https://github.com/Tera-Shiraneko/lazyrootbeer/issues"
+}

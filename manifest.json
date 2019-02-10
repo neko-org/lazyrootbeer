@@ -1,0 +1,42 @@
+{
+    "files": {
+        "Additional-Data/Dungeonoverview/Dungeon-Icons/Instance.png": "208a8d6b4430326b4e3c78a10f23672ceed321ac51db65260c6b114ca6f8d0cc",
+        "Additional-Data/Dungeonoverview/Readme.md": "7dbe5f87e0e8c5068c2fc3397364c846a3dadafe1b9b7038c9a14ea04d65b735",
+        "Additional-Data/Dungeonoverview/dungeons.json": "4d1252d6715ada72d8d18b6a44b9ee87afe2ddf4ddc33114ebfe857f12dcf4a5",
+        "Additional-Data/Skillconfiguration/Readme.md": "defa789085d9dcdb316a83d7f642e9150a7cd6ac8e7d5c4fae25727b37eca032",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Beampanel.png": "051d9497cf3ec5251d02db8d5eb2ed2066ee96a77e312321f4583897e15ff0b7",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Breeze.png": "8d882e6942820962914007fe82ae78a1ef6b9a4fda60c7028b9fbbedee7e4770",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Dampseyroll.png": "784e750e34d9cdbf4e1f24eafbbcb905ac3e8a140f5f5b1d2595cd9c4071e238",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Deadlywill.png": "bac4ba41261b05ccda418292e50419507fee592f504b3cc0e72ede8e24a19514",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Descentofdarkness.png": "4b388a202c623f1619d34df2debef965f77d24d4b2b345ee90f2ae2acbbc1655",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Destructionvigor.png": "2162b01f543add5a499f70776ebd1133aa91136f438400251eb2f83376246f48",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Enrage.png": "11ef330a8c3a9e8bedd08cf3fecc83a1478941d64544e9e60918ffb15ff24c7c",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Fightingwill.png": "d6aefe0e19e0fc4245e6ce11b31b39210174a1f2d458c6845711146aa178ba3a",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Inspiringroar.png": "97b5ce687735833229b26cdfa0e0e10c6ce981b0ca968e3a98313e3c772849cf",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Judgment.png": "6cec18934b888db882326a12fe1b93963b75ff6a7715464ba6f35268090f57f5",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Provokerage.png": "d36b9c08f7706b908287a81a4310d89c57b878fe865c4c29be2564e874b4be3a",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Redmoon.png": "fd22929aa80db31d1d8996c5ee4f880214b1ff6b1b47eaa076ecf1172e3da67f",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Strengthenmana.png": "a6f948de5280f082763275b99b4cc72180cf83dfdf4c1c3bbe1b9bc56bece8bb",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Summonspiritking.png": "303f0961ac20dd6322ece44081ebd2364a4fd433bdc0307d082d5304d5d0675f",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Taoist.png": "b74bd7f4b3439960dd7dbd83fcdedf99927f5eac85788f433a26e077f84efbc9",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Unleash.png": "71c7fd8291295d692dd04cc08fd4e2495ef025e0afdec97d5aaca6e3b4c6abed",
+        "Additional-Data/Skillconfiguration/Skill-Icons/Warbegin.png": "3e808f9b7f81c59374836fc941fc930dcf27577738789768ac7871b4dce544fa",
+        "Additional-Data/Skillconfiguration/skills.json": {
+            "overwrite": false,
+            "hash": "a7abbe3c71d78fda4894fbe715cc923b0225c6402115d188253f2bb362cca1f3"
+        },
+        "Readme.md": "50a0038da3a299802374af5e3a63e5d6193e5223ebfb90ee24f6d4285f368824",
+        "index.js": "29a12059728d0e827183adadbbafc73400034f43b3e6cbb6b55d61c6867f26f3",
+        "module.json": "ac6feea30aaf94f0ef8bdc12359d6123b570fccbe82184111e790053875b340d",
+        "settings_migrator.js": "d25553845d478e9fbea170791957aeb31810e6a97efae4671b14c68085c92568",
+        "settings_structure.js": "98e4d6083f19b250c0c315f6577a4cf3aa10fbfddef7f8c4a49ecc7374168710"
+    },
+    "defs": {
+        "C_START_SKILL": 7,
+        "C_USE_ITEM": 3,
+        "S_INVEN": 17,
+        "S_LOAD_TOPO": 3,
+        "S_START_COOLTIME_ITEM": 1,
+        "S_SYSTEM_MESSAGE": 1
+    }
+}
