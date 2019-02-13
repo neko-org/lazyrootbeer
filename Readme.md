@@ -17,10 +17,10 @@
 ---
 
 ## Configuration
-- `useoutofcombat:` [Here you can choose if the module should only work in combat mode or out of combat too].
-- `userootbeeron:` [Put the desired skill id in here where you want the module to take effect].
-- `usebroochon:` [Put the desired skill id in here where you want the module to take effect].
-- `delay:` [Delay in milliseconds between using the skill and using brooch and or rootbeer].
+- useoutofcombat: Here you can choose if the module should only work in combat mode or out of combat too.
+- userootbeeron: Put the desired skill id in here where you want the module to take effect.
+- usebroochon: Put the desired skill id in here where you want the module to take effect.
+- delay: Delay in milliseconds between using the skill and using brooch and or rootbeer.
 
 Configuration file can be found under this path /Additional-Data/Skillconfiguration/skills.json in the modules folder.
 
