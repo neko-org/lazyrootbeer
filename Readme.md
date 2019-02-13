@@ -2,16 +2,6 @@
 
 ---
 
-## Skillconfiguration
-- `useoutofcombat:` [Here you can choose if the module should only work in combat mode or out of combat too].
-- `userootbeeron:` [Put the desired skill id in here where you want the module to take effect].
-- `usebroochon:` [Put the desired skill id in here where you want the module to take effect].
-- `delay:` [Delay in milliseconds between using the skill and using brooch and or rootbeer].
-
-Skillconfiguration file can be found under this path /Additional-Data/Skillconfiguration/skills.json in the modules folder.
-
----
-
 ## Console Command
 - Type `/8 lazybeer` to enable or disable auto use of brooch and or rootbeer function. Enabled by default.
 - Type `/8 lazydebug` to enable or disable debug function for setting up the module. Disabled by default.
@@ -23,6 +13,16 @@ Skillconfiguration file can be found under this path /Additional-Data/Skillconfi
 
 ## Interface Command
 - Type `/8 lazyconfig` to enable or disable the functions written above.
+
+---
+
+## Configuration
+- `useoutofcombat:` [Here you can choose if the module should only work in combat mode or out of combat too].
+- `userootbeeron:` [Put the desired skill id in here where you want the module to take effect].
+- `usebroochon:` [Put the desired skill id in here where you want the module to take effect].
+- `delay:` [Delay in milliseconds between using the skill and using brooch and or rootbeer].
+
+Configuration file can be found under this path /Additional-Data/Skillconfiguration/skills.json in the modules folder.
 
 ---
 
