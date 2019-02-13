@@ -11,7 +11,7 @@ module.exports = function Lazyrootbeer(mod) {
     }
 
     if (mod.platform === 'classic') {
-        mod.command.message('This version of tera is currently not supported.');
+        mod.log('This version of tera is currently not supported. Affected module is Lazyrootbeer.');
         return;
     }
 
