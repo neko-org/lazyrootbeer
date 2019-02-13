@@ -19,6 +19,9 @@
 ## Configuration
 - If you want to edit the config you just need to edit the skills.json file.
     - Which can be found here /Additional-Data/Skillconfiguration/skills.json in the modules folder.
+
+---
+
 - A list of things that can be edited can be found here. Only for experienced users.
     - Useoutofcombat => Choose if the module should only work in combat mode or out of combat too.
     - Userootbeeron => Put the desired skill id in here where you want the module to take effect.
