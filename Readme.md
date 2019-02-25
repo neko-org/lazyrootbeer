@@ -3,16 +3,16 @@
 ---
 
 ## Console Command
-- Type `/8 lazybeer` to enable or disable auto use of brooch and or rootbeer function. Enabled by default.
-- Type `/8 lazydebug` to enable or disable debug function for setting up the module. Disabled by default.
-- Type `/8 lazyworld` to enable or disable the zone restriction function. Enabled by default.
+- Type `/8 lazy beer` to enable or disable auto use of brooch and or rootbeer function. Enabled by default.
+- Type `/8 lazy debug` to enable or disable debug function for setting up the module. Disabled by default.
+- Type `/8 lazy world` to enable or disable the zone restriction function. Enabled by default.
     - Enabled is that brooch and or rootbeer will be used everywhere in the game.
 	- Disabled is that brooch and or rootbeer will only be used in dungeons.
 
 ---
 
 ## Interface Command
-- Type `/8 lazyconfig` to enable or disable the functions written above.
+- Type `/8 lazy config` to enable or disable the functions written above.
 
 ---
 

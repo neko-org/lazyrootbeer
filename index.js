@@ -29,25 +29,24 @@ module.exports = function Lazyrootbeer(mod) {
             cooldown: 0
         };
 
-    mod.command.add('lazyconfig', () => {
-        if (ui) {
-            ui.show();
+    mod.command.add('lazy', (arg_1) => {
+        if (arg_1 === "beer") {
+            mod.settings.enabled = !mod.settings.enabled;
+            mod.command.message(`Lazyrootbeer is now ${mod.settings.enabled ? "enabled" : "disabled"}.`);
         }
-    });
-
-    mod.command.add('lazybeer', () => {
-        mod.settings.enabled = !mod.settings.enabled;
-        mod.command.message(`Lazyrootbeer is now ${mod.settings.enabled ? "enabled" : "disabled"}.`);
-    });
-
-    mod.command.add('lazydebug', () => {
-        mod.settings.debug = !mod.settings.debug;
-        mod.command.message(`Debugging of skills is now ${mod.settings.debug ? "enabled" : "disabled"}.`);
-    });
-
-    mod.command.add('lazyworld', () => {
-        mod.settings.world = !mod.settings.world;
-        mod.command.message(`Lazyrootbeer in open world is now ${mod.settings.world ? "enabled" : "disabled"}.`);
+        else if (arg_1 === "world") {
+            mod.settings.world = !mod.settings.world;
+            mod.command.message(`Lazyrootbeer in open world is now ${mod.settings.world ? "enabled" : "disabled"}.`);
+        }
+        else if (arg_1 === "debug") {
+            mod.settings.debug = !mod.settings.debug;
+            mod.command.message(`Debugging of skills is now ${mod.settings.debug ? "enabled" : "disabled"}.`);
+        }
+        else if (arg_1 === "config") {
+            if (ui) {
+                ui.show();
+            }
+        }
     });
 
     let useitem = (item, loc, w) => {
