@@ -30,19 +30,19 @@ module.exports = function Lazyrootbeer(mod) {
         };
 
     mod.command.add('lazy', (arg_1) => {
-        if (arg_1 === "beer") {
+        if (arg_1 === 'beer') {
             mod.settings.enabled = !mod.settings.enabled;
-            mod.command.message(`Lazyrootbeer is now ${mod.settings.enabled ? "enabled" : "disabled"}.`);
+            mod.command.message(`Lazyrootbeer is now ${mod.settings.enabled ? 'enabled' : 'disabled'}.`);
         }
-        else if (arg_1 === "world") {
+        else if (arg_1 === 'world') {
             mod.settings.world = !mod.settings.world;
-            mod.command.message(`Lazyrootbeer in open world is now ${mod.settings.world ? "enabled" : "disabled"}.`);
+            mod.command.message(`Lazyrootbeer in open world is now ${mod.settings.world ? 'enabled' : 'disabled'}.`);
         }
-        else if (arg_1 === "debug") {
+        else if (arg_1 === 'debug') {
             mod.settings.debug = !mod.settings.debug;
-            mod.command.message(`Debugging of skills is now ${mod.settings.debug ? "enabled" : "disabled"}.`);
+            mod.command.message(`Debugging of skills is now ${mod.settings.debug ? 'enabled' : 'disabled'}.`);
         }
-        else if (arg_1 === "config") {
+        else if (arg_1 === 'config') {
             if (ui) {
                 ui.show();
             }
@@ -83,7 +83,7 @@ module.exports = function Lazyrootbeer(mod) {
     };
 
     mod.game.on('enter_game', () => {
-        dungeon = dungeons["dungeons"];
+        dungeon = dungeons['dungeons'];
         usebroochon = skills[mod.game.me.class].usebroochon;
         userootbeeron = skills[mod.game.me.class].userootbeeron;
         useoutofcombat = skills[mod.game.me.class].useoutofcombat;
