@@ -15,8 +15,9 @@ module.exports = function Lazyrootbeer(mod) {
         return;
     }
 
-    let notusable = [19698, 19701, 19704, 19734, 19735, 80280, 80281],
-        useoutofcombat, userootbeeron, usebroochon, delay,
+    const notusable = [19698, 19701, 19704, 19734, 19735, 80280, 80281];
+
+    let useoutofcombat, userootbeeron, usebroochon, delay,
         broochinfo, dungeon, beer,
         zone = false,
         brooch = {
