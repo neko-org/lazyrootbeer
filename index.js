@@ -1,4 +1,4 @@
-const dungeons = require('./Additional-Data/Dungeonoverview/dungeons.json');
+const dungeons = require('./Additional-Data/Dungeonconfiguration/dungeons.json');
 const skills = require('./Additional-Data/Skillconfiguration/skills.json');
 const SettingsUI = require('tera-mod-ui').Settings;
 
