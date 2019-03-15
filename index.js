@@ -15,6 +15,8 @@ module.exports = function Lazyrootbeer(mod) {
         return;
     }
 
+    mod.game.initialize('inventory');
+
     const notusable = [19698, 19701, 19704, 19734, 19735, 80280, 80281];
 
     let useoutofcombat, userootbeeron, usebroochon, delay,
@@ -76,10 +78,8 @@ module.exports = function Lazyrootbeer(mod) {
         if ((useoutofcombat || mod.game.me.inCombat) && !mod.game.me.inBattleground && zone || mod.settings.world) {
             if (usebroochon.includes(info.skill.id) && Date.now() > brooch.cooldown)
                 setTimeout(useitem, delay, brooch.id, info.loc, info.w);
-            if (userootbeeron.includes(info.skill.id) && rootbeer.amount > 0 && Date.now() > rootbeer.cooldown) {
-                rootbeer.amount -= 1;
+            if (userootbeeron.includes(info.skill.id) && rootbeer.amount > 0 && Date.now() > rootbeer.cooldown)
                 setTimeout(useitem, delay, rootbeer.id, info.loc, info.w);
-            }
         }
     };
 
@@ -96,7 +96,7 @@ module.exports = function Lazyrootbeer(mod) {
             broochinfo = event.items.find(item => item.slot === 20);
             beer = event.items.find(item => item.id === rootbeer.id);
             if (broochinfo) brooch.id = broochinfo.id;
-            if (beer) rootbeer.amount = beer.amount;
+            if (!beer || beer) rootbeer.amount = mod.game.inventory.getTotalAmountInBag(rootbeer.id);
         }
     });
 
@@ -116,19 +116,13 @@ module.exports = function Lazyrootbeer(mod) {
         }
     });
 
-    mod.hook('S_SYSTEM_MESSAGE', 1, (event) => {
-        if (mod.settings.enabled) {
-            const msg = mod.parseSystemMessage(event.message);
-            if (msg.id === 'SMT_NO_ITEM' && beer === undefined) return false;
-        }
-    });
-
     mod.hook('S_LOAD_TOPO', 3, (event) => {
         if (mod.settings.enabled) {
-            if (dungeon.includes(event.zone))
+            if (dungeon.includes(event.zone)) {
                 zone = true;
-            else if (!dungeon.includes(event.zone))
+            } else {
                 zone = false;
+            }
         }
     });
 
