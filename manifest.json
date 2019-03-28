@@ -29,7 +29,7 @@
             "hash": "a7abbe3c71d78fda4894fbe715cc923b0225c6402115d188253f2bb362cca1f3"
         },
         "Readme.md": "d518c3fd1f67df00834e825ec6560233b7d962b8e2aa4b1405c576e8e15da2b7",
-        "index.js": "206ab1a52d83fa44b3c81917e12fa5a067115ab27d40eb99a41b54daca508aad",
+        "index.js": "e3c7a1a15a13cb01c007c533ceca7d04bd1375e280f22302bba9bfdef2736dfe",
         "module.json": "ac6feea30aaf94f0ef8bdc12359d6123b570fccbe82184111e790053875b340d",
         "settings_migrator.js": "d25553845d478e9fbea170791957aeb31810e6a97efae4671b14c68085c92568",
         "settings_structure.js": "98e4d6083f19b250c0c315f6577a4cf3aa10fbfddef7f8c4a49ecc7374168710"
@@ -37,7 +37,7 @@
     "defs": {
         "C_START_SKILL": 7,
         "C_USE_ITEM": 3,
-        "S_INVEN": 17,
+        "S_INVEN": [17,18],
         "S_LOAD_TOPO": 3,
         "S_START_COOLTIME_ITEM": 1
     }

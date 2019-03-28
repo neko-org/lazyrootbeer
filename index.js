@@ -91,7 +91,7 @@ module.exports = function Lazyrootbeer(mod) {
         delay = skills[mod.game.me.class].delay;
     });
 
-    mod.hook('S_INVEN', 17, (event) => {
+    mod.hook('S_INVEN', mod.majorPatchVersion < 80 ? 17 : 18, {order: -1000, filter: {fake: null}}, (event) => {
         if (mod.settings.enabled) {
             broochinfo = event.items.find(item => item.slot === 20);
             beer = event.items.find(item => item.id === rootbeer.id);
