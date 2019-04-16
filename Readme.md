@@ -7,7 +7,7 @@
 - Type `/8 lazy debug` to enable or disable debug function for setting up the module. Disabled by default.
 - Type `/8 lazy world` to enable or disable the zone restriction function. Enabled by default.
     - Enabled is that brooch and or rootbeer will be used everywhere in the game.
-	- Disabled is that brooch and or rootbeer will only be used in dungeons.
+    - Disabled is that brooch and or rootbeer will only be used in dungeons.
 
 ---
 
@@ -43,4 +43,4 @@
 - If you enter multiple skill id's in skills.json you need to put an comma between each skill you add.
 - If you got multiple skill id's it will use brooch and or rootbeer on the first skill you use.
 - I don't play every class so it's possible you have to edit the skills.json file manually.
-	- Which can be found under the path written above.
+    - Which can be found under the path written above.
