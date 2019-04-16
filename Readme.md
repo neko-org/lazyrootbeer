@@ -38,8 +38,8 @@
 ---
 
 ## Note
-- An list of the default dungeons which are currently added in the dungeons.json file can be found here [Dungeon Overview](https://github.com/Tera-Shiraneko/lazyrootbeer/tree/master/Additional-Data/Dungeonconfiguration).
-- An list of the default skills which are currently added in the skills.json file can be found here [Skill Overview](https://github.com/Tera-Shiraneko/lazyrootbeer/tree/master/Additional-Data/Skillconfiguration).
+- An list of the dungeons which are currently added in the dungeons.json file can be found here [Dungeon Overview](https://github.com/Tera-Shiraneko/lazyrootbeer/tree/master/Additional-Data/Dungeonconfiguration).
+- An list of the skills which are currently added in the skills.json file can be found here [Skill Overview](https://github.com/Tera-Shiraneko/lazyrootbeer/tree/master/Additional-Data/Skillconfiguration).
 - If you enter multiple skill id's in skills.json you need to put an comma between each skill you add.
 - If you got multiple skill id's it will use brooch and or rootbeer on the first skill you use.
 - I don't play every class so it's possible you have to edit the skills.json file manually.
