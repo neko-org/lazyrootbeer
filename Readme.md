@@ -19,14 +19,15 @@
 ## Configuration
 - If you want to edit the config you just need to edit the skills.json file.
     - Which can be found here /Additional-Data/Skillconfiguration/skills.json in the modules folder.
+    - To edit it without being overwritten just change overwrite to false in the manifest.json file.
 
 ---
 
 - A list of things that can be edited can be found here. Only for experienced users.
-    - Useoutofcombat => Choose if the module should only work in combat mode or out of combat too.
-    - Userootbeeron => Put the desired skill id in here where you want the module to take effect.
-    - Usebroochon => Put the desired skill id in here where you want the module to take effect.
-    - Delay => Delay in milliseconds between using the skill and using brooch and or rootbeer.
+    - use_out_of_combat => Choose if the module should only work in combat mode or out of combat too.
+    - use_rootbeer_on => Put the desired skill id in here where you want the module to take effect.
+    - use_brooch_on => Put the desired skill id in here where you want the module to take effect.
+    - delay => Delay in milliseconds between using the skill and using brooch and or rootbeer.
 
 ---
 

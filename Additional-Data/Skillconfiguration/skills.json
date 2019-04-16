@@ -1,80 +1,80 @@
 {
     "warrior": {
-        "usebroochon": [350100, 200200],
-        "userootbeeron": [350100, 200200],
-        "useoutofcombat": true,
+        "use_brooch_on": [350100, 200200],
+        "use_rootbeer_on": [350100, 200200],
+        "use_out_of_combat": true,
         "delay": 0
     },
     "lancer": {
-        "usebroochon": [120100, 170200, 70300],
-        "userootbeeron": [120100, 170200, 70300],
-        "useoutofcombat": true,
+        "use_brooch_on": [120100, 170200, 70300],
+        "use_rootbeer_on": [120100, 170200, 70300],
+        "use_out_of_combat": true,
         "delay": 0
     },
     "slayer": {
-        "usebroochon": [200300],
-        "userootbeeron": [200300],
-        "useoutofcombat": true,
+        "use_brooch_on": [200300],
+        "use_rootbeer_on": [200300],
+        "use_out_of_combat": true,
         "delay": 0
     },
     "berserker": {
-        "usebroochon": [330100],
-        "userootbeeron": [330100],
-        "useoutofcombat": true,
+        "use_brooch_on": [330100],
+        "use_rootbeer_on": [330100],
+        "use_out_of_combat": true,
         "delay": 0
     },
     "sorcerer": {
-        "usebroochon": [340200],
-        "userootbeeron": [340200],
-        "useoutofcombat": true,
+        "use_brooch_on": [340200],
+        "use_rootbeer_on": [340200],
+        "use_out_of_combat": true,
         "delay": 0
     },
     "archer": {
-        "usebroochon": [350100],
-        "userootbeeron": [350100],
-        "useoutofcombat": true,
+        "use_brooch_on": [350100],
+        "use_rootbeer_on": [350100],
+        "use_out_of_combat": true,
         "delay": 0
     },
     "priest": {
-        "usebroochon": [430100],
-        "userootbeeron": [430100],
-        "useoutofcombat": true,
+        "use_brooch_on": [430100],
+        "use_rootbeer_on": [430100],
+        "use_out_of_combat": true,
         "delay": 0
     },
     "elementalist": {
-        "usebroochon": [480100],
-        "userootbeeron": [480100],
-        "useoutofcombat": true,
+        "use_brooch_on": [480100],
+        "use_rootbeer_on": [480100],
+        "use_out_of_combat": true,
         "delay": 0
     },
     "soulless": {
-        "usebroochon": [160100],
-        "userootbeeron": [160100],
-        "useoutofcombat": true,
+        "use_brooch_on": [160100],
+        "use_rootbeer_on": [160100],
+        "use_out_of_combat": true,
         "delay": 0
     },
     "engineer": {
-        "usebroochon": [410101],
-        "userootbeeron": [410101],
-        "useoutofcombat": true,
+        "use_brooch_on": [410101],
+        "use_rootbeer_on": [410101],
+        "use_out_of_combat": true,
         "delay": 0
     },
     "fighter": {
-        "usebroochon": [140101, 260100],
-        "userootbeeron": [140101, 260100],
-        "useoutofcombat": true,
+        "use_brooch_on": [140101, 260100],
+        "use_rootbeer_on": [140101, 260100],
+        "use_out_of_combat": true,
         "delay": 0
     },
     "assassin": {
-        "usebroochon": [230100],
-        "userootbeeron": [230100],
-        "useoutofcombat": true,
+        "use_brooch_on": [230100],
+        "use_rootbeer_on": [230100],
+        "use_out_of_combat": true,
         "delay": 0
     },
     "glaiver": {
-        "usebroochon": [120100, 250100],
-        "userootbeeron": [120100, 250100],
-        "useoutofcombat": true,
+        "use_brooch_on": [120100, 250100],
+        "use_rootbeer_on": [120100, 250100],
+        "use_out_of_combat": true,
         "delay": 0
     }
 }
