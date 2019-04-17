@@ -3,7 +3,7 @@
         "Additional-Data/Dungeonconfiguration/Dungeon-Icons/Instance.png": "208a8d6b4430326b4e3c78a10f23672ceed321ac51db65260c6b114ca6f8d0cc",
         "Additional-Data/Dungeonconfiguration/Readme.md": "20cd8b2d003a8802a9068c1e85c28578dc90a3c348a0852b69d546ca68267781",
         "Additional-Data/Dungeonconfiguration/dungeons.json": {
-            "overwrite": true,
+            "overwrite": false,
             "hash": "a71ed63c9dc629b4889d92dc870fa389a78319f217064bdf03f850af5d0a6658"
         },
         "Additional-Data/Skillconfiguration/Readme.md": "defa789085d9dcdb316a83d7f642e9150a7cd6ac8e7d5c4fae25727b37eca032",
@@ -25,7 +25,7 @@
         "Additional-Data/Skillconfiguration/Skill-Icons/Unleash.png": "71c7fd8291295d692dd04cc08fd4e2495ef025e0afdec97d5aaca6e3b4c6abed",
         "Additional-Data/Skillconfiguration/Skill-Icons/Warbegin.png": "3e808f9b7f81c59374836fc941fc930dcf27577738789768ac7871b4dce544fa",
         "Additional-Data/Skillconfiguration/skills.json": {
-            "overwrite": true,
+            "overwrite": false,
             "hash": "db1ceddebb84771e6ab052c60c665b8d19fe8d383cf3f47e037196a59e45c0e1"
         },
         "Readme.md": "43f7fec31637e33d0af9dfe7bb1c3f47731001778bffcb3adc1c96a4ceb5ad2d",
