@@ -19,7 +19,6 @@
 ## Configuration
 - If you want to edit the config you just need to edit the skills.json file.
     - Which can be found here /Additional-Data/Skillconfiguration/skills.json in the modules folder.
-    - To edit it without being overwritten just change overwrite to false in the manifest.json file.
 
 ---
 
